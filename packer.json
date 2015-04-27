@@ -17,7 +17,8 @@
     }   
   ],  
   "provisioners" : [ 
-    { "type": "chef-solo"
+    { "type": "chef-solo",
+      "cookbook_paths": [ "E:/chef-starter/chef-repo/cookbooks" ]
     }  
 
   ]
