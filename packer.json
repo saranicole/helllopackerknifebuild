@@ -17,8 +17,7 @@
     }   
   ],  
   "provisioners" : [ 
-    { "type": "chef-solo",
-      "cookbook_paths": [ "cookbooks" ]
+    { "type": "chef-solo"
     }  
 
   ]
